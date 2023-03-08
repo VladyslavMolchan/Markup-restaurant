@@ -521,6 +521,10 @@ video {
   position: relative;
 }
 
+.left-0 {
+  left: 0px;
+}
+
 .right-\[8px\] {
   right: 8px;
 }
@@ -536,6 +540,42 @@ video {
 
 .mr-\[25px\] {
   margin-right: 25px;
+}
+
+.mt-\[322px\] {
+  margin-top: 322px;
+}
+
+.mt-\[379px\] {
+  margin-top: 379px;
+}
+
+.mt-\[122px\] {
+  margin-top: 122px;
+}
+
+.mt-\[222px\] {
+  margin-top: 222px;
+}
+
+.mt-\[212px\] {
+  margin-top: 212px;
+}
+
+.mb-\[\] {
+  margin-bottom: ;
+}
+
+.mb-\[12px\] {
+  margin-bottom: 12px;
+}
+
+.mb-\[3px\] {
+  margin-bottom: 3px;
+}
+
+.mb-\[33px\] {
+  margin-bottom: 33px;
 }
 
 .flex {
@@ -580,8 +620,20 @@ video {
   background-color: rgb(255 116 0 / var(--tw-bg-opacity));
 }
 
-.bg-\[url\(\'\.\/img\/HEROIMG\.png\'\)\] {
-  background-image: url('./img/HEROIMG.png');
+.bg-\[\] {
+  background-color: ;
+}
+
+.bg-\[\#\] {
+  background-color: #;
+}
+
+.bg-\[\#\#FF7400\] {
+  background-color: ##FF7400;
+}
+
+.bg-\[url\(\'\.\.\/img\/HeaderImg\/Main\/HEROIMG\.png\'\)\] {
+  background-image: url('../img/HeaderImg/Main/HEROIMG.png');
 }
 
 .bg-cover {
@@ -602,6 +654,31 @@ video {
   padding-bottom: 14px;
 }
 
+.px-\[\] {
+  padding-left: ;
+  padding-right: ;
+}
+
+.px-\[29px\] {
+  padding-left: 29px;
+  padding-right: 29px;
+}
+
+.px-\[28px\] {
+  padding-left: 28px;
+  padding-right: 28px;
+}
+
+.px-\[128px\] {
+  padding-left: 128px;
+  padding-right: 128px;
+}
+
+.py-\[114px\] {
+  padding-top: 114px;
+  padding-bottom: 114px;
+}
+
 .pr-\[10px\] {
   padding-right: 10px;
 }
@@ -610,12 +687,40 @@ video {
   padding-top: 50px;
 }
 
+.text-center {
+  text-align: center;
+}
+
 .font-\[\'Open_Sans\'\] {
   font-family: 'Open Sans';
 }
 
+.font-\[\'Tinos\'\] {
+  font-family: 'Tinos';
+}
+
+.font-\[\] {
+  font-family: ;
+}
+
 .text-\[14px\] {
   font-size: 14px;
+}
+
+.text-\[50px\] {
+  font-size: 50px;
+}
+
+.text-\[80px\] {
+  font-size: 80px;
+}
+
+.text-\[18px\] {
+  font-size: 18px;
+}
+
+.text-\[38px\] {
+  font-size: 38px;
 }
 
 .font-\[400\] {
@@ -626,11 +731,41 @@ video {
   font-weight: 700;
 }
 
+.font-normal {
+  font-weight: 400;
+}
+
+.font-\[14px\] {
+  font-weight: 14px;
+}
+
+.font-thin {
+  font-weight: 100;
+}
+
 .leading-\[19\.07px\] {
   line-height: 19.07px;
 }
 
+.text-\[\#D67E35\] {
+  --tw-text-opacity: 1;
+  color: rgb(214 126 53 / var(--tw-text-opacity));
+}
+
 .text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+.text-\[\] {
+  color: ;
+}
+
+.text-\[\#\] {
+  color: #;
+}
+
+.text-\[\#fff\] {
   --tw-text-opacity: 1;
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
@@ -645,9 +780,189 @@ video {
   transition-duration: 700ms;
 }
 
+.before\:absolute::before {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.before\:top-\[205px\]::before {
+  content: var(--tw-content);
+  top: 205px;
+}
+
+.before\:left-\[85px\]::before {
+  content: var(--tw-content);
+  left: 85px;
+}
+
+.before\:right-\[85px\]::before {
+  content: var(--tw-content);
+  right: 85px;
+}
+
+.before\:h-\[2px\]::before {
+  content: var(--tw-content);
+  height: 2px;
+}
+
+.before\:w-\[61px\]::before {
+  content: var(--tw-content);
+  width: 61px;
+}
+
+.before\:bg-\[\#fff\]::before {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.before\:content-\[\'Hovering\'\]::before {
+  --tw-content: 'Hovering';
+  content: var(--tw-content);
+}
+
+.before\:content-\[\]::before {
+  --tw-content: ;
+  content: var(--tw-content);
+}
+
+.before\:content-\[\'\'\]::before {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
+.after\:absolute::after {
+  content: var(--tw-content);
+  position: absolute;
+}
+
+.after\:top-0::after {
+  content: var(--tw-content);
+  top: 0px;
+}
+
+.after\:right-0::after {
+  content: var(--tw-content);
+  right: 0px;
+}
+
+.after\:left-0::after {
+  content: var(--tw-content);
+  left: 0px;
+}
+
+.after\:left-\[\]::after {
+  content: var(--tw-content);
+  left: ;
+}
+
+.after\:left-\[85px\]::after {
+  content: var(--tw-content);
+  left: 85px;
+}
+
+.after\:top-\[\]::after {
+  content: var(--tw-content);
+  top: ;
+}
+
+.after\:top-\[206px\]::after {
+  content: var(--tw-content);
+  top: 206px;
+}
+
+.after\:top-\[216px\]::after {
+  content: var(--tw-content);
+  top: 216px;
+}
+
+.after\:top-\[2px\]::after {
+  content: var(--tw-content);
+  top: 2px;
+}
+
+.after\:top-\[209px\]::after {
+  content: var(--tw-content);
+  top: 209px;
+}
+
+.after\:top-\[212px\]::after {
+  content: var(--tw-content);
+  top: 212px;
+}
+
+.after\:top-\[205px\]::after {
+  content: var(--tw-content);
+  top: 205px;
+}
+
+.after\:h-\[\]::after {
+  content: var(--tw-content);
+  height: ;
+}
+
+.after\:h-\[2px\]::after {
+  content: var(--tw-content);
+  height: 2px;
+}
+
+.after\:w-\[\]::after {
+  content: var(--tw-content);
+  width: ;
+}
+
+.after\:w-\[2px\]::after {
+  content: var(--tw-content);
+  width: 2px;
+}
+
+.after\:w-\[61px\]::after {
+  content: var(--tw-content);
+  width: 61px;
+}
+
+.after\:bg-\[\]::after {
+  content: var(--tw-content);
+  background-color: ;
+}
+
+.after\:bg-\[\#fff\]::after {
+  content: var(--tw-content);
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.after\:content-\[\'Hovering\'\]::after {
+  --tw-content: 'Hovering';
+  content: var(--tw-content);
+}
+
+.after\:content-\[\'\'\]::after {
+  --tw-content: '';
+  content: var(--tw-content);
+}
+
 .hover\:bg-orange-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(194 65 12 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\]:hover {
+  background-color: ;
+}
+
+.hover\:bg-\[\#\]:hover {
+  background-color: #;
+}
+
+.hover\:bg-\[\#FF7400\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 116 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-\[\#cd6917\]:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(205 105 23 / var(--tw-bg-opacity));
 }
 
 .hover\:text-orange-600:hover {

@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Restaurant</title>
+    <title>Ресторан</title>
     <link href="./styles/output.css" rel="stylesheet" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -12,13 +12,19 @@
       href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,800;1,700&family=Tinos:ital@1&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <header
-      class="h-screen bg-[url('./img/./HeaderImg/Main/HEROIMG.png')] bg-cover bg-no-repeat"
+    <div
+      class="h-screen bg-[url('../img/HeaderImg/Main/HEROIMG.png')] bg-cover bg-no-repeat"
     >
       <div class="mx-[165px]">
-        <div class="flex items-center justify-around pt-[50px]">
+        <header class="flex items-center justify-around pt-[50px]">
           <div>
             <img src="./img/./HeaderImg/Logo/Logo.png" alt="Logo" class="" />
           </div>
@@ -27,22 +33,22 @@
             <a
               href="#"
               class="mr-[25px] text-[14px] font-bold text-white duration-700 hover:text-orange-600"
-              >Main</a
+              >Головна</a
             >
             <a
               href="#"
               class="mr-[25px] text-[14px] font-bold text-white duration-700 hover:text-orange-600"
-              >Menu</a
+              >Меню</a
             >
             <a
               href="#"
               class="mr-[25px] text-[14px] font-bold text-white duration-700 hover:text-orange-600"
-              >About us</a
+              >О нас</a
             >
             <a
               href="#"
               class="mr-[25px] text-[14px] font-bold text-white duration-700 hover:text-orange-600"
-              >Booking</a
+              >Забронювати</a
             >
           </nav>
 
@@ -68,13 +74,12 @@
                   <a
                     href="#"
                     class="font-bold text-white duration-700 hover:text-orange-600"
-                    >+999-888-76-54</a
+                    >+380990000001</a
                   >
                 </div>
               </div>
               <div class="text-[14px] font-[400] leading-[19.07px] text-white">
-                Свяжитесь с нами для <br />
-                бронирования
+                Зв'язатися для бронювання <br />
               </div>
             </div>
           </div>
@@ -82,11 +87,34 @@
           <div>
             <a
               class="bg-[#FF7400] px-[19px] py-[14px] font-['Open_Sans'] font-bold text-white transition-colors duration-700 hover:bg-orange-700"
-              >Заказ столика</a
+              >Замовити столік</a
             >
+          </div>
+        </header>
+
+        <div class="relative">
+          <div
+            class="absolute left-0 mt-[212px] text-center font-['Tinos'] text-[50px] font-normal text-[#D67E35]"
+          >
+            Ласкаво просимо в
+            <div class="font-['Tinos'] text-[80px] font-normal text-[#D67E35]">
+              Наш ресторан
+            </div>
+            <div
+              class="font-['Open_Sans'] text-[18px] text-[#fff] before:absolute before:top-[205px] before:right-[85px] before:h-[2px] before:w-[61px] before:bg-[#fff] before:content-[''] after:absolute after:top-[205px] after:left-[85px] after:h-[2px] after:w-[61px] after:bg-[#fff] after:content-['']"
+            >
+              Дом найкращої їжі
+            </div>
+            <div>
+              <a
+                href="#"
+                class="bg-[#FF7400] py-[14px] px-[28px] font-['Open_Sans'] text-[14px] font-bold text-white transition-colors duration-700 hover:bg-orange-700"
+                >Показати меню</a
+              >
+            </div>
           </div>
         </div>
       </div>
-    </header>
+    </div>
   </body>
 </html>
